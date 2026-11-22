@@ -3,6 +3,7 @@ myth: latin-died
 stance: supports
 type: "Primary text"
 citation: "Council of Tours (813): sermons to be given in the 'rustic Roman tongue'."
+scholar: false
 link: "https://en.wikipedia.org/wiki/Council_of_Tours"
 languages: ["Latin", "Romance"]
 contributor: "initial set"

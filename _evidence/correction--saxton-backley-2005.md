@@ -2,8 +2,9 @@
 myth: correction
 stance: complicates
 type: "Study"
-citation: "Saxton, M. & Backley, P. (2005). Negative input for grammatical errors: Effects after a lag of 12 weeks."
-link: "https://discovery-pp.ucl.ac.uk/10002794/1/SAXTON2005Negative643.pdf"
+citation: "Saxton, M., Backley, P. & Gallaway, C. (2005). Negative input for grammatical errors: Effects after a lag of 12 weeks. *Journal of Child Language* 32(3): 643–672."
+title: "Negative input for grammatical errors: effects after a lag of 12 weeks"
+link: "https://doi.org/10.1017/S0305000905006999"
 languages: ["English"]
 contributor: "initial set"
 checked: false

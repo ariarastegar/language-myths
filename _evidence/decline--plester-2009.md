@@ -3,7 +3,8 @@ myth: decline
 stance: supports
 type: "Study"
 citation: "Plester, B., Wood, C. & Joshi, P. (2009). Exploring the relationship between children's knowledge of text message abbreviations and school literacy outcomes. *British Journal of Developmental Psychology* 27: 145–161."
-link: "https://pureportal.coventry.ac.uk/en/publications/exploring-the-relationship-between-childrens-knowledge-of-text-me-2/"
+title: "Exploring the relationship between children's knowledge of text message abbreviations and school literacy outcomes"
+link: "https://doi.org/10.1348/026151008X320507"
 languages: ["English"]
 contributor: "initial set"
 checked: false

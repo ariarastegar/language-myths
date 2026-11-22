@@ -63,6 +63,7 @@ body:
     id: url
     attributes:
       label: Link or DOI
+      description: The publisher's page or a DOI link is best, rather than a PDF copy. The site adds a Google Scholar button automatically, so readers can see who cites the work.
       placeholder: "https://doi.org/10.1111/1467-9280.00359"
   - type: input
     id: languages

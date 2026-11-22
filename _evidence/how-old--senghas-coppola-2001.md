@@ -3,7 +3,8 @@ myth: how-old
 stance: complicates
 type: "Study"
 citation: "Senghas, A. & Coppola, M. (2001). Children creating language: How Nicaraguan Sign Language acquired a spatial grammar. *Psychological Science* 12(4): 323–328."
-link: "https://languagecreationlab.uconn.edu/wp-content/uploads/sites/644/2014/03/senghascoppola2001.pdf"
+title: "Children creating language: How Nicaraguan Sign Language acquired a spatial grammar"
+link: "https://doi.org/10.1111/1467-9280.00359"
 languages: ["Nicaraguan Sign Language"]
 contributor: "initial set"
 checked: false

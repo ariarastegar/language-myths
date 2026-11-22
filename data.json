@@ -25,6 +25,8 @@ permalink: /data.json
       "type": {{ e.type | jsonify }},
       "citation": {{ e.citation | markdownify | remove: "<p>" | remove: "</p>" | strip | jsonify }},
       "url": {{ e.link | jsonify }},
+      "title": {{ e.title | jsonify }},
+      "scholar": {% if e.scholar == false %}false{% else %}true{% endif %},
       "languages": {{ e.languages | jsonify }},
       "contributor": {{ e.contributor | jsonify }},
       "checked": {{ e.checked | default: false | jsonify }},
