@@ -6,6 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        By submitting, you agree that your text is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), credited to your GitHub username.
         A myth is the claim people actually make, in the words they use.
         Myths are published only when an academic study (a peer-reviewed article or a scholarly book) answers them, and the short answer should summarize what that research finds.
   - type: input

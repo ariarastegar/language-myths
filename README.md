@@ -88,4 +88,6 @@ See [`_archive/README.md`](_archive/README.md).
 
 ## Licence
 
-Not yet decided. Until a licence is added, please ask before reusing the content.
+The content of this project (the myths, short answers, explanations and evidence summaries) is shared under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt it for any purpose, as long as you credit "Language myths, answered" and link to [language-myths.github.io](https://language-myths.github.io).
+
+The studies and other works cited remain the property of their authors and publishers; the licence covers only this project's own text.

@@ -366,7 +366,8 @@ function renderAbout() {
       <p class="label">About the “Not yet checked” tag</p>
       <p style="margin:6px 0 0">Some sources were added from abstracts or summaries. The tag stays until someone confirms the source against the original. Checking these is one of the most useful ways to help.</p>
     </div>
-    ${repoReady() ? `<div class="actions"><a class="pill dark" href="${gh("blob/main/CONTRIBUTING.md")}" target="_blank" rel="noopener">Contribution guide</a><a class="pill" href="${gh("")}" target="_blank" rel="noopener">Source on GitHub</a></div>` : ""}`;
+    ${repoReady() ? `<div class="actions"><a class="pill dark" href="${gh("blob/main/CONTRIBUTING.md")}" target="_blank" rel="noopener">Contribution guide</a><a class="pill" href="${gh("")}" target="_blank" rel="noopener">Source on GitHub</a></div>` : ""}
+    <p class="count">Content shared under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Reuse it freely with credit to “Language myths, answered”. Cited works belong to their authors.</p>`;
   window.scrollTo(0, 0);
 }
 

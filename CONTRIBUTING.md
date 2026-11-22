@@ -33,3 +33,7 @@ To question an answer or a piece of evidence, open an issue whose title starts w
 - Summarize in your own words, and don't paste long passages from sources.
 - Prefer original sources (papers, primary texts, datasets) to news coverage or encyclopedias.
 - One piece of evidence per submission.
+
+## Licence
+
+By contributing, you agree that your contribution is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), like the rest of the project, and credited to your GitHub username.
