@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        A myth is the claim people actually make, in the words they use. Once it's accepted, anyone can attach evidence to it.
+        A myth is the claim people actually make, in the words they use.
+        Myths are published only when an academic study (a peer-reviewed article or a scholarly book) answers them, and the short answer should summarize what that research finds.
   - type: input
     id: claim
     attributes:
@@ -18,7 +19,7 @@ body:
     id: one_liner
     attributes:
       label: Short answer
-      description: One or two sentences someone could say in reply.
+      description: One or two sentences summarizing what the research finds, which someone could say in reply.
     validations:
       required: true
   - type: dropdown
@@ -38,6 +39,13 @@ body:
     attributes:
       label: Longer explanation
       description: A few short paragraphs. You can add "## Caveats" and "## Examples" sections with bullet points.
+    validations:
+      required: true
+  - type: textarea
+    id: study
+    attributes:
+      label: Supporting study
+      description: The academic study (or studies) whose findings answer the myth. Give the full citation and a DOI or publisher link for each.
     validations:
       required: true
   - type: input

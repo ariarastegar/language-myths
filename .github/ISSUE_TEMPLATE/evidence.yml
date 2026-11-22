@@ -16,16 +16,10 @@ body:
         # MYTHS-START (this list is updated automatically when a new myth is accepted)
         - "correction · Children learn to talk because adults correct their mistakes."
         - "decline · Young people and texting are ruining the language."
-        - "dialect · Linguists can tell you whether something is a language or a dialect."
-        - "etymology · The real meaning of a word is its etymology."
-        - "how-old · How old is English? Is Tamil older than Malayalam?"
         - "latin-died · Latin is a dead language."
-        - "logical · French (or German, or Latin) is more logical than other languages."
-        - "oldest · Lithuanian (or Icelandic, or Basque) is the oldest language in Europe."
         - "primitive · Some languages are primitive, or don't really have grammar."
         - "sanskrit-mother · Sanskrit is the mother of all European languages."
         - "snow · Eskimos have hundreds of words for snow."
-        - "writing · Spelling shows how a word is really pronounced."
         # MYTHS-END
     validations:
       required: true

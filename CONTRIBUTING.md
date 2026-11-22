@@ -18,7 +18,7 @@ A maintainer reviews every submission. Once it's accepted, it appears on the sit
 
 ## Propose a myth
 
-Use *Issues → New issue → Propose a myth*. Write the claim the way people actually say it, then a short answer and a longer explanation.
+Use *Issues → New issue → Propose a myth*. Write the claim the way people actually say it, then a short answer and a longer explanation. Include at least one academic study (a peer-reviewed article or scholarly book) whose findings answer it: myths are only published once such a study is attached, and the short answer should summarize what the research finds.
 
 ## Check existing evidence
 

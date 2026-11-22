@@ -44,6 +44,10 @@ added: 2026-11-21
 One to three sentences on what it shows.
 ```
 
+## What gets published
+
+A myth appears on the site only when at least one academic study (a peer-reviewed article or a scholarly book) answers it, and its short answer summarizes what that research finds. Myths without such a study wait in `_archive/` until one is contributed; see `_archive/README.md` for how to bring one back.
+
 ## First-time setup with GitHub Desktop
 
 1. **Set your repository name.** Open `_config.yml` in a text editor and change `YOUR-USERNAME/language-myths` to your GitHub username and the repository name you'll use.

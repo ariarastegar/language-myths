@@ -15,3 +15,4 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - tools
+  - _archive
