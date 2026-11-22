@@ -3,7 +3,7 @@ myth: oldest
 stance: supports
 type: "Reference work"
 citation: "Britannica: Anatolian languages, early research."
-url: "https://www.Britannica.Com/topic/Anatolian-languages/Early-research"
+link: "https://www.Britannica.Com/topic/Anatolian-languages/Early-research"
 languages: ["Hittite"]
 contributor: "initial set"
 checked: false

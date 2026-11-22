@@ -3,7 +3,7 @@ myth: oldest
 stance: supports
 type: "Reference work"
 citation: "Anitta text, around 1700 BCE (overview)."
-url: "https://www.wikiwand.com/en/articles/Anitta_text"
+link: "https://www.wikiwand.com/en/articles/Anitta_text"
 languages: ["Hittite"]
 contributor: "initial set"
 checked: false

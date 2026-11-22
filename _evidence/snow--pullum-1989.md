@@ -3,7 +3,7 @@ myth: snow
 stance: supports
 type: "Study"
 citation: "Pullum, G. K. (1989). The great Eskimo vocabulary hoax. *Natural Language and Linguistic Theory* 7: 275–281."
-url: "https://crossgram.clld.org/sources/jacquesestimative-pullum89hoax"
+link: "https://crossgram.clld.org/sources/jacquesestimative-pullum89hoax"
 languages: ["Inuit-Yupik"]
 contributor: "initial set"
 checked: false

@@ -34,7 +34,7 @@ myth: latin-died                    # the myth's file name, without .md
 stance: supports                    # supports, complicates or counterexample
 type: "Primary text"                # Study, Primary text, Data or corpus, Reference work, News or popular writing
 citation: "Ayres-Bennett, W. (1996). The Strasbourg Oaths, 842. In *A History of the French Language through Texts*."
-url: "https://…"
+link: "https://…"
 languages: ["Old French"]
 contributor: "github-username"
 checked: false                      # true once someone has read the original source

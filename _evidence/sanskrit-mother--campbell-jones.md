@@ -3,7 +3,7 @@ myth: sanskrit-mother
 stance: supports
 type: "Study"
 citation: "Campbell, L. Why Sir William Jones got it all wrong, or Jones' role in how to establish language families. *ASJU*."
-url: "https://ojs.ehu.eus/index.php/ASJU/article/download/4384/4329"
+link: "https://ojs.ehu.eus/index.php/ASJU/article/download/4384/4329"
 languages: ["Sanskrit"]
 contributor: "initial set"
 checked: false

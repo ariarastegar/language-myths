@@ -3,7 +3,7 @@ myth: correction
 stance: supports
 type: "Study"
 citation: "McNeill (1966), via the CHILDES teaching notes."
-url: "https://talkbank.org/childes/teach/sayings.pdf"
+link: "https://talkbank.org/childes/teach/sayings.pdf"
 languages: ["English"]
 contributor: "initial set"
 checked: false

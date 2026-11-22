@@ -3,7 +3,7 @@ myth: writing
 stance: complicates
 type: "Reference work"
 citation: "Merriam-Webster: How to pronounce 'often'."
-url: "https://www.merriam-webster.com/grammar/correct-pronunciation-of-often"
+link: "https://www.merriam-webster.com/grammar/correct-pronunciation-of-often"
 languages: ["English"]
 contributor: "initial set"
 checked: false

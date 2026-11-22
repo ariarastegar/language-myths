@@ -3,7 +3,7 @@ myth: dialect
 stance: supports
 type: "Reference work"
 citation: "'A language is a dialect with an army and navy' (history of the quip)."
-url: "https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy"
+link: "https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy"
 languages: ["Yiddish"]
 contributor: "initial set"
 checked: false

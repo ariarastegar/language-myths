@@ -3,7 +3,7 @@ myth: how-old
 stance: counterexample
 type: "Primary text"
 citation: "Zamenhof, L. L. (1887). Unua Libro. Warsaw."
-url: ""
+link: ""
 languages: []
 contributor: "ariarastegar"
 checked: false

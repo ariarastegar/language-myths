@@ -24,7 +24,7 @@ permalink: /data.json
       "stance": {{ e.stance | jsonify }},
       "type": {{ e.type | jsonify }},
       "citation": {{ e.citation | markdownify | remove: "<p>" | remove: "</p>" | strip | jsonify }},
-      "url": {{ e.url | jsonify }},
+      "url": {{ e.link | jsonify }},
       "languages": {{ e.languages | jsonify }},
       "contributor": {{ e.contributor | jsonify }},
       "checked": {{ e.checked | default: false | jsonify }},

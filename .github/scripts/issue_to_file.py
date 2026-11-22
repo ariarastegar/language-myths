@@ -111,7 +111,7 @@ def evidence(body, number, author):
         f"stance: {stance}",
         f"type: {q(f.get('type') or 'Study')}",
         f"citation: {q(f['citation'])}",
-        f"url: {q(f.get('url', ''))}",
+        f"link: {q(f.get('url', ''))}",
         f"languages: {q(langs)}",
         f"contributor: {q(author)}",
         f"checked: {'true' if checked else 'false'}",

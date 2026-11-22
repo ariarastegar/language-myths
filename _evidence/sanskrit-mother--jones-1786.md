@@ -3,7 +3,7 @@ myth: sanskrit-mother
 stance: supports
 type: "Primary text"
 citation: "Jones, W. (1786). The Third Anniversary Discourse, on the Hindus."
-url: "https://sites.units.it/crismap/wjonessanskrit.html"
+link: "https://sites.units.it/crismap/wjonessanskrit.html"
 languages: ["Sanskrit", "Greek", "Latin"]
 contributor: "initial set"
 checked: false

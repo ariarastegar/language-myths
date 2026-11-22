@@ -3,7 +3,7 @@ myth: primitive
 stance: complicates
 type: "Study"
 citation: "McWhorter, J. (2001). The world's simplest grammars are creole grammars. *Linguistic Typology* 5: 125–166."
-url: "https://doi.org/10.1515/lity.2001.001"
+link: "https://doi.org/10.1515/lity.2001.001"
 languages: ["Creoles"]
 contributor: "initial set"
 checked: false

@@ -3,7 +3,7 @@ myth: decline
 stance: supports
 type: "Study"
 citation: "Wood, C. et al. (2011). A longitudinal study of children's text messaging and literacy development. *British Journal of Psychology* 102(3): 431–442."
-url: "https://pubmed.ncbi.nlm.nih.gov/21751998/"
+link: "https://pubmed.ncbi.nlm.nih.gov/21751998/"
 languages: ["English"]
 contributor: "initial set"
 checked: false

@@ -3,7 +3,7 @@ myth: decline
 stance: supports
 type: "Reference work"
 citation: "Merriam-Webster: *literally*, usage note."
-url: "https://www.merriam-webster.com/words-at-play/misuse-of-literally"
+link: "https://www.merriam-webster.com/words-at-play/misuse-of-literally"
 languages: ["English"]
 contributor: "initial set"
 checked: false

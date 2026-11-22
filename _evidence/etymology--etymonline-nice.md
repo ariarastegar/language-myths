@@ -3,7 +3,7 @@ myth: etymology
 stance: supports
 type: "Reference work"
 citation: "Etymonline: *nice*."
-url: "https://www.etymonline.com/index.php?term=nice"
+link: "https://www.etymonline.com/index.php?term=nice"
 languages: ["English"]
 contributor: "initial set"
 checked: false

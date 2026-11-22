@@ -3,7 +3,7 @@ myth: writing
 stance: complicates
 type: "Reference work"
 citation: "Spelling pronunciation (overview)."
-url: "https://Www.Wikipedia.org/wiki/Spelling_pronunciation"
+link: "https://Www.Wikipedia.org/wiki/Spelling_pronunciation"
 languages: ["English"]
 contributor: "initial set"
 checked: false
