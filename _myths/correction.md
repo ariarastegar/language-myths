@@ -1,6 +1,6 @@
 ---
 claim: "Children learn to talk because adults correct their mistakes."
-one_liner: "Children get little consistent grammatical correction and mostly ignore what they get. They learn from exposure and use."
+one_liner: "Parents rarely correct grammar; they react to whether what a child says is true (Brown & Hanlon 1970). Adults do often rephrase errors correctly, and children can pick this up, but that's a long way from correction driving learning."
 topic: "Learning"
 order: 12
 ---

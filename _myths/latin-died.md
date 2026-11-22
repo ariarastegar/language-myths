@@ -1,6 +1,6 @@
 ---
 claim: "Latin is a dead language."
-one_liner: "Latin is still spoken. These days it's called French, Spanish, Italian, Portuguese, Romanian…"
+one_liner: "Spoken Latin never died; it gradually became the Romance languages. By 813, church councils told priests to preach in the \"rustic Roman tongue\", and the first text in the new form, the Strasbourg Oaths, dates from 842."
 topic: "History & change"
 order: 3
 ---

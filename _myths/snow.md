@@ -1,6 +1,6 @@
 ---
 claim: "Eskimos have hundreds of words for snow."
-one_liner: "That depends entirely on what you count as a word. In languages where one word can be a whole sentence, the count is meaningless."
+one_liner: "The big numbers grew with each retelling: Boas mentioned four unrelated words, and later writers inflated the figure (Martin 1986). Inuit and Yupik dialects do have rich snow and ice vocabularies, but how many \"words\" there are depends on how you count."
 topic: "Words"
 order: 7
 ---

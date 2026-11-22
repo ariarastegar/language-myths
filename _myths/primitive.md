@@ -1,6 +1,6 @@
 ---
 claim: "Some languages are primitive, or don't really have grammar."
-one_liner: "No known human language is primitive. Every one has a full grammar; the complexity just sits in different places."
+one_liner: "No language studied lacks grammar, but languages do differ in where their complexity lies. Languages with many speakers and adult learners tend to have simpler word forms (Lupyan & Dale 2010), and even creoles that look simple turn out to have hidden complexity (Lefebvre 2001)."
 topic: "Structure"
 order: 5
 ---

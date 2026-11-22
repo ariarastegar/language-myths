@@ -1,6 +1,6 @@
 ---
 claim: "Sanskrit is the mother of all European languages."
-one_liner: "Sanskrit is an older sister, not the mother. It, Greek and Latin all descend from a common ancestor that was never written down."
+one_liner: "Sanskrit, Greek and Latin descend from a shared ancestor rather than from one another. Jones made the famous case in 1786, though Campbell shows others had noticed the resemblance earlier."
 topic: "History & change"
 order: 4
 ---

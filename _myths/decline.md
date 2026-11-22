@@ -1,6 +1,6 @@
 ---
 claim: "Young people and texting are ruining the language."
-one_liner: "Languages have always been changing, and they have always been said to be decaying."
+one_liner: "Studies of British schoolchildren find the opposite of decline: children who use more text abbreviations tend to read and spell better (Plester et al. 2009; Wood et al. 2011)."
 topic: "Society"
 order: 10
 ---
