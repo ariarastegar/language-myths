@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /data.json
+---
+{
+  "site": {
+    "title": {{ site.title | jsonify }},
+    "repository": {{ site.github_repo | jsonify }}
+  },
+  "myths": [
+{% assign myths = site.myths | sort: "order" %}{% for m in myths %}    {
+      "id": {{ m.slug | jsonify }},
+      "claim": {{ m.claim | jsonify }},
+      "one_liner": {{ m.one_liner | jsonify }},
+      "topic": {{ m.topic | jsonify }},
+      "order": {{ m.order | default: 999 | jsonify }},
+      "body": {{ m.content | markdownify | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}  ],
+  "evidence": [
+{% for e in site.evidence %}    {
+      "id": {{ e.slug | jsonify }},
+      "myth": {{ e.myth | jsonify }},
+      "stance": {{ e.stance | jsonify }},
+      "type": {{ e.type | jsonify }},
+      "citation": {{ e.citation | markdownify | remove: "<p>" | remove: "</p>" | strip | jsonify }},
+      "url": {{ e.url | jsonify }},
+      "languages": {{ e.languages | jsonify }},
+      "contributor": {{ e.contributor | jsonify }},
+      "checked": {{ e.checked | default: false | jsonify }},
+      "added": {{ e.added | date: "%Y-%m-%d" | jsonify }},
+      "summary": {{ e.content | markdownify | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}  ]
+}

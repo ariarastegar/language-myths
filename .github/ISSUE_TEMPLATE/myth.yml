@@ -1,0 +1,48 @@
+name: Propose a myth
+description: Suggest a common misconception about language that the site should answer.
+title: "New myth: "
+labels: ["new myth"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A myth is the claim people actually make, in the words they use. Once it's accepted, anyone can attach evidence to it.
+  - type: input
+    id: claim
+    attributes:
+      label: The myth, as people say it
+      placeholder: "Bilingual children get confused and fall behind."
+    validations:
+      required: true
+  - type: input
+    id: one_liner
+    attributes:
+      label: Short answer
+      description: One or two sentences someone could say in reply.
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - History & change
+        - Structure
+        - Words
+        - Society
+        - Learning
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Longer explanation
+      description: A few short paragraphs. You can add "## Caveats" and "## Examples" sections with bullet points.
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Short ID (optional)
+      description: Lowercase words joined by hyphens, used in links. Leave empty to have one made from the claim.
+      placeholder: "bilingual-confusion"

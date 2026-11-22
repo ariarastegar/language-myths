@@ -1,0 +1,85 @@
+name: Add evidence
+description: Add a study, primary text, dataset or counterexample to an existing myth.
+title: "Evidence: "
+labels: ["evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Evidence that **complicates** an answer is as welcome as evidence that supports it.
+        A maintainer reviews every submission before it appears on the site.
+  - type: dropdown
+    id: myth
+    attributes:
+      label: Which myth is this about?
+      options:
+        # MYTHS-START (this list is updated automatically when a new myth is accepted)
+        - "correction · Children learn to talk because adults correct their mistakes."
+        - "decline · Young people and texting are ruining the language."
+        - "dialect · Linguists can tell you whether something is a language or a dialect."
+        - "etymology · The real meaning of a word is its etymology."
+        - "how-old · How old is English? Is Tamil older than Malayalam?"
+        - "latin-died · Latin is a dead language."
+        - "logical · French (or German, or Latin) is more logical than other languages."
+        - "oldest · Lithuanian (or Icelandic, or Basque) is the oldest language in Europe."
+        - "primitive · Some languages are primitive, or don't really have grammar."
+        - "sanskrit-mother · Sanskrit is the mother of all European languages."
+        - "snow · Eskimos have hundreds of words for snow."
+        - "writing · Spelling shows how a word is really pronounced."
+        # MYTHS-END
+    validations:
+      required: true
+  - type: dropdown
+    id: stance
+    attributes:
+      label: What does it do to the answer?
+      options:
+        - Supports the answer
+        - Complicates it
+        - Counterexample
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of evidence
+      options:
+        - Study
+        - Primary text
+        - Data or corpus
+        - Reference work
+        - News or popular writing
+    validations:
+      required: true
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      description: Author(s), year, title, and where it was published. Use *asterisks* for italics.
+      placeholder: "Senghas, A. & Coppola, M. (2001). Children creating language. *Psychological Science* 12(4): 323–328."
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link or DOI
+      placeholder: "https://doi.org/10.1111/1467-9280.00359"
+  - type: input
+    id: languages
+    attributes:
+      label: Languages it concerns
+      description: Separate with commas. Leave empty if it's about language in general.
+      placeholder: "Nicaraguan Sign Language"
+  - type: textarea
+    id: summary
+    attributes:
+      label: What it shows
+      description: One to three sentences, in your own words.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: Source check
+      options:
+        - label: I read the source itself, not only a summary or abstract of it.

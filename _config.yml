@@ -1,0 +1,17 @@
+# Site settings. Change github_repo to your own GitHub username and repository name.
+title: "Language myths, answered"
+description: "Short answers to common misconceptions about language, with the evidence behind them."
+github_repo: "ariarastegar/language-myths"
+
+# Each myth and each piece of evidence is its own file. They are bundled into data.json; no separate pages.
+collections:
+  myths:
+    output: false
+  evidence:
+    output: false
+
+markdown: kramdown
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - tools

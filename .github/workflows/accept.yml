@@ -1,0 +1,51 @@
+# When a maintainer adds the "accepted" label to an evidence or new-myth issue,
+# this turns the form into a file and opens a pull request for final review.
+name: Turn accepted submission into a pull request
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  convert:
+    if: >-
+      github.event.label.name == 'accepted' &&
+      (contains(github.event.issue.labels.*.name, 'evidence') || contains(github.event.issue.labels.*.name, 'new myth'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write the file
+        id: write
+        env:
+          KIND: ${{ contains(github.event.issue.labels.*.name, 'evidence') && 'evidence' || 'myth' }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: python3 .github/scripts/issue_to_file.py
+
+      - name: Open a pull request
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: submission/issue-${{ github.event.issue.number }}
+          commit-message: ${{ steps.write.outputs.title }}
+          title: ${{ steps.write.outputs.title }}
+          body: |
+            Created from #${{ github.event.issue.number }}. Check the new file, edit it here if needed, then merge to publish.
+
+            Closes #${{ github.event.issue.number }}
+          delete-branch: true
+
+      - name: Tell the contributor
+        if: steps.pr.outputs.pull-request-url != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ steps.pr.outputs.pull-request-url }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Thanks! This was accepted and is now in review as $PR_URL. It will appear on the site once that's merged."
