@@ -6,6 +6,10 @@
 <title>Language myths, answered</title>
 <meta name="description" content="Short answers to common misconceptions about language, with the evidence behind them.">
 <meta name="theme-color" content="#f5f6f4">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -41,7 +45,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 .tile { background: var(--tile); border-radius: var(--r); box-shadow: inset 0 0 0 1px var(--hair); }
 .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.brand { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin: 0; text-decoration: none; }
+.brand { font-size: 24px; white-space: nowrap; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin: 0; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
+.logo { width: 34px; height: 34px; flex-shrink: 0; }
+.logo .bg { fill: var(--ink); } .logo .fg { stroke: var(--bg); } .logo .dot { fill: var(--bg); }
 .tools { display: flex; gap: 2px; padding: 4px; border-radius: 999px; }
 .icon-btn { width: 34px; height: 34px; border: 0; background: transparent; border-radius: 999px; display: grid; place-items: center; color: var(--ink); text-decoration: none; }
 .icon-btn:hover { background: var(--soft); }
@@ -154,6 +160,7 @@ const ICON = {
   scholar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c2 2 10 2 12 0v-5"/></svg>',
   back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>'
 };
+const LOGO = '<svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect class="bg" width="64" height="64" rx="15"/><circle class="fg" cx="28" cy="28" r="13" fill="none" stroke-width="4.2"/><path class="fg" d="M37.5 37.5 48 48" stroke-width="5.6" stroke-linecap="round"/><path class="fg" d="M22.8 31c0-3.6 1.4-5.9 4-7.3M29.8 31c0-3.6 1.4-5.9 4-7.3" fill="none" stroke-width="3.6" stroke-linecap="round"/><circle class="dot" cx="24.3" cy="31" r="2.9"/><circle class="dot" cx="31.3" cy="31" r="2.9"/></svg>';
 // Line drawings for the topic tiles.
 const TOPIC_ICON = {
   "History & change": '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6h20M14 42h20"/><path d="M16 6c0 9 16 11 16 18S16 33 16 42"/><path d="M32 6c0 9-16 11-16 18s16 9 16 18"/><path d="M20 38c1.5-2.5 6.5-2.5 8 0" /></svg>',
@@ -245,7 +252,7 @@ function renderHome() {
   renderNav("home");
   const topics = [...new Set(DATA.myths.map(m => m.topic))];
   app.innerHTML = `
-    ${topBar(`<a class="brand" href="#">Language myths</a>`)}
+    ${topBar(`<a class="brand" href="#">${LOGO}Language myths</a>`)}
     <label class="search tile">${ICON.search}<input type="search" id="q" placeholder="Search myths, sources, languages" aria-label="Search" value="${esc(ui.q)}"></label>
     <div class="topics">${topics.map(t => `<button class="topic tile" data-topic="${esc(t)}" aria-pressed="${t === ui.topic}">${TOPIC_ICON[t] || DEFAULT_TOPIC_ICON}<span>${esc(t)}</span></button>`).join("")}</div>
     <div class="sec">
@@ -411,7 +418,7 @@ fetch("data.json")
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => { DATA = d; route(); })
   .catch(() => {
-    app.innerHTML = `${topBar('<span class="brand">Language myths</span>')}
+    app.innerHTML = `${topBar(`<span class="brand">${LOGO}Language myths</span>`)}
       <div class="notice tile"><strong>The myth data couldn't be loaded.</strong> GitHub builds the data file when it publishes the site, so this page only works once it's live on GitHub Pages. If it is already published, wait a minute and reload.</div>`;
   });
 </script>
